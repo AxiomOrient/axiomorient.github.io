@@ -24,7 +24,7 @@
     gradient: 'from-violet-500 to-purple-500'
   },
   {
-    name: 'Aiden Lee',
+    name: 'Aiden',
     role: 'Mobile Developer',
     specialty: '최고의 사용자 경험 설계',
     description: '사용자의 손안에서 가장 쾌적하고 직관적인 경험을 만드는 데 집중합니다. 수많은 앱들 속에서 사용자가 기꺼이 시간을 할애하고 다시 찾게 되는 앱, 그것이 그의 유일한 목표입니다.',
