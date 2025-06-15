@@ -76,10 +76,10 @@
   <!-- 메인 콘텐츠 -->
   <div class="relative z-20 min-h-screen flex items-center justify-center">
     <div class="container mx-auto px-6 lg:px-8 text-center">
-      <div class="max-w-6xl mx-auto">
+      <div class="max-w-6xl mx-auto relative flex flex-col">
         <!-- 상단 라벨 -->
         <div 
-          class="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white/80 text-sm font-medium mb-8"
+          class="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white/80 text-sm font-medium mb-8 self-center"
           class:animate-slide-up={mounted}
           style="animation-delay: 0.1s; animation-fill-mode: both;"
         >
@@ -89,21 +89,20 @@
         
         <!-- 메인 타이틀 -->
         <h1 
-          class="text-6xl md:text-8xl lg:text-9xl font-black leading-none mb-8 text-white tracking-tight"
+          class="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-black leading-none mb-8 text-white tracking-tight"
           class:animate-slide-up={mounted}
           style="animation-delay: 0.2s; animation-fill-mode: both;"
         >
           복잡함 너머,<br />
           <span 
             class="gradient-text inline-block floating-animation"
-            use:typewriter={{ words, speed: 80, deleteSpeed: 30, delay: 2000 }}
-          ></span>
+            use:typewriter={{ words, speed: 80, deleteSpeed: 30, delay: 2000 }}></span>
           <span class="typing-cursor"></span>
         </h1>
         
         <!-- 서브 타이틀 -->
         <p 
-          class="text-xl md:text-2xl text-white/70 mb-16 max-w-4xl mx-auto leading-relaxed font-light"
+          class="text-xl md:text-2xl text-white/70 mb-16 max-w-4xl mx-auto leading-relaxed font-light self-center"
           class:animate-slide-up={mounted}
           style="animation-delay: 0.4s; animation-fill-mode: both;"
         >
@@ -113,7 +112,7 @@
         
         <!-- CTA 버튼들 -->
         <div 
-          class="flex flex-col sm:flex-row gap-6 justify-center items-center"
+          class="flex flex-col sm:flex-row gap-6 justify-center items-center self-center"
           class:animate-slide-up={mounted}
           style="animation-delay: 0.6s; animation-fill-mode: both;"
         >
@@ -136,7 +135,7 @@
         
         <!-- 스크롤 인디케이터 -->
         <div 
-          class="absolute bottom-12 left-1/2 transform -translate-x-1/2 text-white/50"
+          class="mt-16 text-white/50 hidden md:block self-end"
           class:animate-slide-up={mounted}
           style="animation-delay: 0.8s; animation-fill-mode: both;"
         >

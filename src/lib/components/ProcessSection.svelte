@@ -41,7 +41,7 @@
         class:animate-slide-up={mounted}
         style="animation-delay: 0.2s; animation-fill-mode: both;"
       >
-        체계적인 <span class="gradient-text">개발 프로세스</span>
+        체계적인 <br class="md:hidden" /><span class="gradient-text">개발 프로세스</span>
       </h2>
       
       <p 
