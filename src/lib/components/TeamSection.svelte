@@ -144,11 +144,11 @@
         <div class="text-gray-600">전문가</div>
       </div>
       <div class="p-6">
-        <div class="text-4xl font-black text-gray-900 mb-2">15+</div>
+        <div class="text-4xl font-black text-gray-900 mb-2">12+</div>
         <div class="text-gray-600">팀 평균 경력 (년)</div>
       </div>
       <div class="p-6">
-        <div class="text-4xl font-black text-gray-900 mb-2">100+</div>
+        <div class="text-4xl font-black text-gray-900 mb-2">30+</div>
         <div class="text-gray-600">성공 프로젝트</div>
       </div>
       <div class="p-6">

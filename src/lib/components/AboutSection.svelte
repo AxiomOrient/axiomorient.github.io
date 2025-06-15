@@ -132,7 +132,7 @@
         class:animate-slide-up={mounted}
         style="animation-delay: 0.8s; animation-fill-mode: both;"
       >
-        <div class="text-4xl font-black text-gray-900 mb-2">50+</div>
+        <div class="text-4xl font-black text-gray-900 mb-2">30+</div>
         <div class="text-gray-600">성공적인 프로젝트</div>
       </div>
       <div 
